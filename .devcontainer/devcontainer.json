@@ -1,0 +1,11 @@
+{
+  "name": "Java",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscode-java-pack"
+      ]
+    }
+  }
+}
