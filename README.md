@@ -16,15 +16,15 @@ Write a program to check if a given string is a palindrome (same forward and bac
 ### Fibonacci Sequence
 Write a program that prints the first n numbers in the Fibonacci sequence, where n is provided by the user.
 
-## Intermediate Level Exercises
 ### Find Minimum and Maximum
 Create a program that takes an array of integers and finds the minimum and maximum numbers.
 
+## Intermediate Level Exercises
 ### Bubble Sorting Algorithm
 Implement a simple sorting algorithm to sort an array of integers.
 
 ### Bank Account
-Create a BankAccount class with fields like accountNumber, balance, and methods to deposit and withdraw money. Implement appropriate logic to avoid negative balances.
+Create a BankAccount class with fields like accountNumber, balance, and methods to deposit and withdraw money. Implement appropriate logic to avoid negative balances. Add Unit tests.
 
 ## Advanced Level Exercices
 ### HashMap Usage: Word Frequency Counter
