@@ -1,4 +1,4 @@
-package app.src.main.java.intermediate;
+package intermediate;
 
 import java.util.Arrays;
 import java.util.stream.Stream;

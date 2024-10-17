@@ -1,8 +1,8 @@
-package app.src.main.java.beginner;
+package beginner;
 
 public class HelloWorld {
 
-    public void print(String[] args) {
+    public void print() {
         System.out.println("Hello world");
     }
 

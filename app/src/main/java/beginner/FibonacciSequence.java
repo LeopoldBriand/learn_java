@@ -1,4 +1,4 @@
-package app.src.main.java.beginner;
+package beginner;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package app.src.main.java.beginner;
+package beginner;
 
 public class PalindromeChecker {
 
@@ -11,8 +11,8 @@ public class PalindromeChecker {
 
     }
 
-    private static boolean checker(String s) {
-        char[] chars = s.toCharArray();
+    public static boolean checker(String s) {
+        char[] chars = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase().toCharArray();
         for (int i = 0; i < (chars.length - 1) / 2; i++) {
             if (!(chars[i] == chars[chars.length - 1 - i])) {
                 return false;

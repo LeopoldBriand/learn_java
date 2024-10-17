@@ -1,13 +1,12 @@
-package app.src.main.java.beginner;
+package beginner;
 
 public class FactorialCalculation {
 
-    public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
-        for (int i = n - 1; i > 0; i--) {
+    public Integer factorial(Integer n) {
+        for (Integer i = n - 1; i > 0; i--) {
             n = n * i;
         }
-        System.out.println(n);
+        return n;
     }
 
 }
